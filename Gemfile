@@ -41,6 +41,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'ci_reporter'
   gem 'ci_reporter_rspec'
+  gem 'rails-controller-testing'
 end
 
 group :development do
