@@ -40,6 +40,7 @@ group :development, :test do
   gem 'vcr'
   gem 'byebug', platform: :mri
   gem 'ci_reporter'
+  gem 'ci_reporter_rspec'
 end
 
 group :development do
