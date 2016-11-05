@@ -39,6 +39,7 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'vcr'
   gem 'byebug', platform: :mri
+  gem 'ci_reporter'
 end
 
 group :development do
