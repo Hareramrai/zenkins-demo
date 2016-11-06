@@ -42,6 +42,7 @@ group :development, :test do
   gem 'ci_reporter'
   gem 'ci_reporter_rspec'
   gem 'rails-controller-testing'
+  gem 'rubocop', '~> 0.45.0', require: false
 end
 
 group :development do
