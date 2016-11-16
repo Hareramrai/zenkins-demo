@@ -1,3 +1,8 @@
+test:
+  adapter: sqlite3
+  encoding: unicode
+  database: zenkins_demo_test
+
 default: &default
   adapter: postgresql
   encoding: unicode
@@ -11,11 +16,6 @@ default: &default
 development:
   <<: *default
   database: zenkins_demo_development
-
-test:
-  adapter: sqlite3
-  encoding: unicode
-  database: zenkins_demo_test
 
 production:
   <<: *default
