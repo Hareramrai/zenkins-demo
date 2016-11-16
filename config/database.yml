@@ -6,7 +6,6 @@ test:
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: db
   username: <%= ENV["POSTGRES_USER"] %>
   password: <%= ENV["POSTGRES_PASSWORD"] %>
   # For details on connection pooling, see rails configuration guide
