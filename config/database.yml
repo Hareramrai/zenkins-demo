@@ -13,7 +13,8 @@ development:
   database: zenkins_demo_development
 
 test:
-  <<: *default
+  adapter: sqlite3
+  encoding: unicode
   database: zenkins_demo_test
 
 production:
